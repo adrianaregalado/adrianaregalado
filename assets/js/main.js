@@ -78,13 +78,6 @@ for (i = 0; i < dropdown.length; i++) {
 
 		}
 
-	// Scrolly.
-		$('.scrolly')
-			.scrolly({
-				speed: 1500,
-				offset: $header.outerHeight()
-			});
-
 	// Menu.
 		$('#menu')
 			.append('<a href="#menu" class="close"></a>')
