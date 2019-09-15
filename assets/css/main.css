@@ -333,7 +333,11 @@ input, select, textarea {
 /* TEST OVER */
 
 
-	.dropdown {
+	.about-me-dropdown {
+		padding: 0;
+	}
+
+	.professional-dropdown {
 		padding: 0;
 	}
 
@@ -360,27 +364,54 @@ input, select, textarea {
 		box-shadow: none;
 	}
 
-	.dropdown-content {
+	.about-me-dropdown-content {
 		display: none;
 	}
 
-	.dropdown-content > div {
+	.professional-dropdown-content {
+		display: none;
+	}
+
+	.about-me-dropdown-content > div {
 		background-color: #ffffff;
 		border-radius: 4px;
 		position: absolute;
 		min-width: 160px;
 	}
 
-	.dropdown-content > ul {
+	.professional-dropdown-content > div {
+		background-color: #ffffff;
+		border-radius: 4px;
+		position: absolute;
+		min-width: 160px;
+	}
+
+	.about-me-dropdown-content > ul {
 		margin: 0 0 0 1.5em;
 	}
 
-	.dropdown-content > ul > li {
+	.professional-dropdown-content > ul {
+		margin: 0 0 0 1.5em;
+	}
+
+	.about-me-dropdown-content > ul > li {
 		margin: 0;
 		padding: 0 !important;
 	}
 
-	.dropdown-content a {
+	.professional-dropdown-content > ul > li {
+		margin: 0;
+		padding: 0 !important;
+	}
+
+	.about-me-dropdown-content a {
+		color: white;
+		/* padding: 0.5em 0.5em !important; */
+		text-decoration: none;
+		display: block;
+	}
+
+	.professional-dropdown-content a {
 		color: white;
 		/* padding: 0.5em 0.5em !important; */
 		text-decoration: none;
