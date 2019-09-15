@@ -1,1 +1,0 @@
-# adrianaregalado.github.io
